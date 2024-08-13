@@ -41,7 +41,7 @@ public class SwaggerConfig {
                                 .in(SecurityScheme.In.HEADER)
                                 .name("Authorization"))
                 )
-                .info(new Info().title("Mohir-Dev-Spring-Boot- Jpa").description(
+                .info(new Info().title("Sender Email").description(
                         "This is a sample Spring Boot RESTful service using springdoc-openapi and OpenAPI 3.").version("v1.0.0"))
                 .openapi("3.0.2")
 
